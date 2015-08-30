@@ -13,7 +13,7 @@ First of all, install [**NodeJS**](https://nodejs.org/).
 Then, install [**DalekJS**](http://dalekjs.com/) globally: 
 
 ```sh
-[sudo] npm i -g dalek-cli`
+[sudo] npm i -g dalek-cli
 ```
 
 After that:
@@ -27,7 +27,7 @@ Tests will be run with **PhantomJS**.
 
 ## Using real browsers
 
-Every project has **Dalek Chrome Plugin** installed. To use it, run inside project directory:
+All projects has **Dalek Chrome Plugin** installed. To use it, run inside project directory:
 
 ```sh
 dalek index.js -b chrome
