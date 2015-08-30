@@ -1,5 +1,5 @@
 module.exports = {
-  'Create new account ContaAzul': function(test) {
+  'Create new account at ContaAzul': function(test) {
     test.open('https://app.contaazul.com')
       .click('a[href="#modalCadastro"]')
       .type('#contaazul-name', 'Fernando Daciuk')
