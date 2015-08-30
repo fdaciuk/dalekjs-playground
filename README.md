@@ -29,7 +29,7 @@ Tests will be run with **PhantomJS**.
 
 Every project has **Dalek Chrome Plugin** installed. To use it, run inside project directory:
 
-```js
+```sh
 dalek index.js -b chrome
 ```
 
