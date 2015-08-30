@@ -8,7 +8,9 @@
 
 ## Running
 
-First of all, install [**DalekJS**](http://dalekjs.com/) globally: 
+First of all, install [**NodeJS**](https://nodejs.org/). 
+
+Then, install [**DalekJS**](http://dalekjs.com/) globally: 
 
 ```sh
 [sudo] npm i -g dalek-cli`
