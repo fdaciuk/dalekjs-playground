@@ -21,7 +21,7 @@ After that:
 - Clone this repository;
 - Access a project folder;
 - Run `npm i`;
-- Run `dalek index.js`.
+- Run `npm start`.
 
 Tests will be run with **PhantomJS**.
 
@@ -30,7 +30,7 @@ Tests will be run with **PhantomJS**.
 All projects has **Dalek Chrome Plugin** installed. To use it, run inside project directory:
 
 ```sh
-dalek index.js -b chrome
+npm run chrome
 ```
 
 To know all DalekJS options, [read the documentation](http://dalekjs.com/pages/documentation.html).
