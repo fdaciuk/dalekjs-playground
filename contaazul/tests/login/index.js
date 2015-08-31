@@ -1,5 +1,6 @@
 exports.createAccount = function createAccount(test) {
-  test.open('https://app.contaazul.com')
+  test.maximize()
+    .open('https://app.contaazul.com')
     .click('a[href="#modalCadastro"]')
     .type('#contaazul-name', 'Fernando Daciuk')
     .type('#contaazul-company', 'Empresa')
