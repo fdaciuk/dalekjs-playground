@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "dalek index.js",
+    "chrome": "dalek index.js -b chrome"
+  },
   "devDependencies": {
     "dalek-browser-chrome": "0.0.11",
     "dalekjs": "0.0.9"
